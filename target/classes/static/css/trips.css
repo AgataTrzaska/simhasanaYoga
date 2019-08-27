@@ -1,0 +1,82 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Avenir, Arial, sans-serif;
+}
+#selectionbar {
+  margin: 0 auto;
+  background: rgba(255,255,255,0.3);
+  text-align: right;
+  padding: .5rem;
+  margin-top: 2%;
+  margin-left: 15.5%;
+  margin-right: 10.3%;
+  }
+
+#dynaflex {
+  display: flex;
+  font-size: 0;
+  flex-flow: row wrap;
+  max-width: 1000px;
+  margin-left: 15.5%;
+}
+#dynaflex figure {
+  margin: 0; min-width: 201px;
+  flex: 0.67; transition: .5s;
+}
+#dynaflex figure.cub {
+  flex: 0.568;
+  min-width: 170.49px;
+}
+#dynaflex figure.on-grass {
+  flex: 1;
+  min-width: 300px;
+}
+#dynaflex figure.diminish {
+  min-width: 0; flex: 0;
+}
+#dynaflex figure img {
+  width: 100%; height: auto;
+}
+
+
+
+
+
+
+
+ .modal {
+z-index:1;
+display:none;
+position:fixed;
+overflow:auto;
+}
+
+.modal-hover-opacity:hover {
+opacity:0.60;
+filter:alpha(opacity=60);
+}
+
+
+.modal-content, #caption {
+
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    filter:alpha(opacity=60);
+}
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}

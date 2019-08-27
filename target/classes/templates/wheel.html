@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/columns.css?version=160">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+
+<div class='some-page-wrapper'>
+    <div class='row'>
+        <div class='column'>
+            <div class='butto'>
+                <div th:replace="fragments/buttons :: buttons"></div>
+            </div>
+        </div>
+        <div class='column'>
+            <div class='descrip'>
+                <div class="pho">
+                    <img src="/images/buttons/wheel.jpg" class="2" style="width:100%; border-top-left-radius:60px; border-top-right-radius:60px">
+                    <a href="/wheelgal"><button class="btn"><i class="fa fa-camera" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+                    <a href="/teachers#baran"><button class="btn2"><i class="glyphicon glyphicon-user" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+
+                </div>
+                <p></p>
+                <p>
+                    Joga z wykorzystaniem yoga wheel. Dynamiczne zajęcia jogi Vinyasy z asanami z kołem ( wzmacniające mięśnie głębokie, spłaszczające brzuch, wzmacniające plecy i nogi, przygotowujące do szpagatów, mocno otwierające klatkę piersiową do mostków), zakończone głębokim relaksem w wygięciach w tył oraz uspokajających pozycjach odwróconych. Koło pozwoli pogłębić klasyczne asany z jogi, skutecznie rozciągnąć klatkę piersiową i wzmocnić plecy, uwalniając je od napięć po długich godzinach spędzanych w pozycjach siedzących i stojących.                </p>
+
+
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/b9-Rxn3_BGs" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

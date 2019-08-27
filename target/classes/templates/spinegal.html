@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="css/gals.css?version=160">
+<link rel="stylesheet" type="text/css" href="css/columns.css?version=160">
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<div class='some-page-wrapper'>
+    <div class='row'>
+        <div class='column'>
+            <div class='butto'>
+                <div th:replace="fragments/buttons2 :: buttons2"></div>
+            </div>
+        </div>
+        <div class='column'>
+            <div class='descrip2'>
+                <div id="dynaflex">
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/1.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/2.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/3.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/4.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/5.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/6.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/7.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/8.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                    <figure data-group="spine">
+                        <div class="container1">
+                            <img src="/images/gal/activi/spine/9.jpg" style="max-width:100%;cursor:pointer"
+                                 onclick="onClick(this)" class="modal-hover-opacity">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                </div>
+            </div>
+        </div>
+        <script  src="js/trips.js"></script>
+        <script  src="js/trips2.js"></script>
+
+        <div th:replace="fragments/footer :: footer"></div>
+    </div>
+</div>
+</body>
+</html>

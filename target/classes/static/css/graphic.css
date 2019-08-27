@@ -1,0 +1,84 @@
+.form-control{
+margin-left: 29%;
+margin-top: 2%;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+}
+
+.myTable{
+margin-left: 29%;
+margin-top: 2%;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+
+.days{
+background-color: #111111;
+color:rgb(255, 179, 71);
+text-align: center;
+  padding: 15px;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+}
+
+
+.days2{
+background-color: #333333;
+color:rgb(255, 179, 71);
+text-align: center;
+  padding: 15px;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+            }
+
+.ciem{
+background-color: #111111;
+color: rgb(255, 179, 71);
+padding: 10px;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+.cie{
+background-color: #111111;
+color: Silver ;
+padding: 10px;
+border-bottom: 1px solid #333333;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+.jas{
+background-color: #333333;
+color: Silver ;
+padding: 10px;
+border-bottom: 1px solid #111111;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+.jasm{
+background-color: #333333;
+color: rgb(255, 179, 71);
+padding: 10px;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+.td{
+padding: 10px;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+
+}
+
+a:link {
+  color: Silver ;
+}
+a:visited {
+  color:  Silver ;
+}
+a:active {
+  color:  Silver ;
+}
+
+a:hover {
+  color: MediumSpringGreen  ;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="header">
+    <meta charset="UTF-8">
+    <title>Simhasana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css?version=160">
+
+
+</head>
+<body>
+<div class="container" xmlns:th="http://www.thymeleaf.org" th:fragment="header">
+    <div class="header">
+       <img src="/images/strglo/logoo.png">
+        <div class="header-right">
+            <a href='http://facebook.com' target='_blank'><span class="socicon-facebook"></span></a>
+            <a href='http://instagram.com' target='_blank'><span class="socicon-instagram"></span></a></li>
+        </div>
+    </div>
+    <div id='cssmenu'>
+        <ul>
+            <li class='has-sub '><a href='/'>Strona główna</a>
+            <li class='has-sub '><a href='#'>O nas</a>
+                <ul>
+                    <li class='has-sub '><a href='history'>O klubie</a></li>
+                    <li class='has-sub '><a href='#'>Galeria</a>
+                        <ul>
+                            <li><a href='trips'>Wyjazdy</a></li>
+                            <li><a href='acroyogagal'>Zajęcia</a></li>
+                            <li><a href='#'>Warsztaty</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class='has-sub '><a href='faq'>Regulamin</a></li>
+                </ul>
+            </li>
+            <li class='has-sub '><a href='#'>Zajęcia</a>
+                <ul>
+                    <li class='has-sub '><a href='graphic'>Grafik</a></li>
+                    <li class='has-sub '><a href='#'>Warsztaty</a></li>
+                    <li class='has-sub '><a href='#'>Opis zajęć</a>
+                        <ul>
+                            <li><a href='acroyoga'>Acro joga</a></li>
+                            <li><a href='aerialyoga'>Aerial joga</a></li>
+                            <li><a href='activepregnancy'>Aktywna ciąża</a></li>
+                            <li><a href='activemom'>Aktywna mama</a></li>
+                            <li><a href='animalflow'>Animal flow</a></li>
+                            <li><a href='ashtanga'>Ashtanga joga</a></li>
+                            <li><a href='pelvicfloor'>Dno miednicy</a></li>
+                            <li><a href='hatha'>Hatha joga</a></li>
+                            <li><a href='spine'>Joga kręgosłupa</a></li>
+                            <li><a href='spiral'>Joga spiralna</a></li>
+                            <li><a href='wheel'>Joga wheel</a></li>
+                            <li><a href='yin'>Joga yin</a></li>
+                            <li><a href='strala'>Strala joga energize</a></li>
+                            <li><a href='vinyasa'>Vinyasa joga</a></li>
+
+
+                        </ul>
+                    </li>
+
+                    <li class='has-sub '><a href='teachers'>Nauczyciele</a></li>
+                </ul>
+            </li>
+            <li class='has-sub '><a href='#'>Opłaty</a>
+                <ul>
+                    <li class='has-sub '><a href='#'>Cennik</a></li>
+                    <li class='has-sub '><a href='#'>Promocje</a></li>
+                </ul>
+            </li>
+            <li class='has-sub '><a href='/'>Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>

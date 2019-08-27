@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/columns.css?version=160">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+
+<div class='some-page-wrapper'>
+    <div class='row'>
+        <div class='column'>
+            <div class='butto'>
+                <div th:replace="fragments/buttons :: buttons"></div>
+            </div>
+        </div>
+        <div class='column'>
+            <div class='descrip'>
+                <div class="pho">
+                    <img src="/images/buttons/spine.jpg" class="2" style="width:100%; border-top-left-radius:60px; border-top-right-radius:60px">
+                    <a href="/spinegal"><button class="btn"><i class="fa fa-camera" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+                    <a href="/teachers#zielinska"><button class="btn2"><i class="glyphicon glyphicon-user" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+
+                </div>
+                <p></p>
+                <p>
+                    Ból kręgosłupa jest obecnie tak powszechnym schorzeniem, że niemal każdy je miał, ma lub mieć będzie. Z badań przeprowadzonych przez Instytut Badania Rynku Pentor w 2003 r. wynika, że na bóle kręgosłupa i krzyża cierpi 44% Polaków powyżej 15 roku życia. To zatrważająca statystyka, która, jak przypuszczam, mogła się zmienić w kierunku zwiększenia liczby cierpiących.            </p>
+
+                <p>
+                    Bardzo często sami przyczyniamy się do pojawienia tych dolegliwości, gdyż nie mamy nawyku dbania o kręgosłup – przeciążamy go, przyjmując wadliwą postawę. Np. w pozycji stojącej w lekkim skłonie u człowieka ważącego 70 kg na kręgosłup lędźwiowy działa siła o wartości ok. 220 kg. Natomiast w pozycji wyprostowanej jest to wartość ok. 150 kg! Zdarza się, że motywacją do przyjścia na zajęcia jogi jest ból pleców, kręgosłupa. Wśród wielu szkół jogi w Polsce tylko nieliczne mają w swojej ofercie zajęcia, na których największą uwagę poświęca się kręgosłupowi. Są różnie nazwane: Joga dla kręgosłupa, Zdrowie kręgosłupa, Terapia jogą – ale wszystkie zajmują się jednym – naszym kręgosłupem.                <p>
+
+            </p>
+                <p></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kF9Qdx2MP5o" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

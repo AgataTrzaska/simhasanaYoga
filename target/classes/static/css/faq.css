@@ -1,0 +1,54 @@
+
+/* Accordion Styles*/
+.accordion-wrapper {
+  margin-top: 1%;
+  margin-left: 29%;
+  margin-right: 10%
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+            font-size: 14px;
+}
+
+button.accordion {
+  background-color: #111111;
+  color: rgb(255, 179, 71);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5em 1.25em;
+  text-align: center;
+  transition: 0.8s;
+  width: 85.5%;
+}
+
+button.active,
+button.accordion:hover {
+  color: rgb(255, 179, 71);
+  background-color: #333333;
+}
+
+button.accordion:after {
+  content: "\002B";
+  float: right;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+            font-size: 14px;
+}
+
+button.active.accordion:after {
+  content: "\2212";
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+            font-size: 14px;
+}
+
+.details {
+  background-color: rgb(17,17, 17, 0.8);
+  color: rgb(255, 179, 71);
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1.5em;
+  transition: max-height 0.2s ease-out;
+    text-align: justify;
+font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+          font-size: 14px;
+            width: 85.5%;
+
+}

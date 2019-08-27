@@ -1,0 +1,52 @@
+.left {
+  display: block;
+  margin-left: 2%;
+  margin-right: auto;
+  width: 40%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+        background: #333333;
+        margin-left: 153px;
+        width: 1055px;
+        margin-top:1%;
+        font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+                  font-size: 14px;
+                                            height: auto;
+
+    }
+    .box .text{
+        position: absolute;
+        margin-top: 1%;
+        left: 45%;
+        right: 3%;
+        top: 0; /* Adjust this value to move the positioned div up and down */
+        font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+                  font-size: 14px;
+                          height: auto;
+    }
+.desc {
+  text-indent: 15px;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: rgb(255, 179, 71);
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+            font-size: 14px;
+            margin-top: 15px;
+                                      height: auto;
+
+}
+
+.box h2{
+  color: rgb(255, 179, 71);
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.box img{
+margin-top: 45px
+}

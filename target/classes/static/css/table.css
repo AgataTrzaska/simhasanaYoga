@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/graphic.css?version=178">
+
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+
+<table style="width:70%">
+    <tr>
+        <th class="to2" rowspan="2"></th>
+        <th class="to2" colspan="2">Poniedziałek</th>
+        <th class="to" colspan="2" >Wtorek</th>
+        <th class="to2" colspan="2">Środa</th>
+        <th class="to" colspan="2">Czwartek</th>
+        <th class="to2" colspan="2">Piątek</th>
+        <th class="to" colspan="2">Sobota</th>
+    </tr>
+    <tr>
+        <td class="to2">Sala 1</td>
+        <td class="to2">Sala 2</td>
+        <td class="to">Sala 1</td>
+        <td class="to">Sala 2</td>
+        <td class="to2">Sala 1</td>
+        <td class="to2">Sala 2</td>
+        <td class="to">Sala 1</td>
+        <td class="to">Sala 2</td>
+        <td class="to2">Sala 1</td>
+        <td class="to2">Sala 2</td>
+        <td class="to">Sala 1</td>
+        <td class="to">Sala 2</td>
+    </tr>
+    <tr>
+    <tr class="ja">
+    <td class="colo">7:30-8:00</td>
+    <td></td>
+    <td rowspan="2" class="sje">Strala joga energize
+        <p></p>
+        <p><a href="/strala" style="color:#333333">Opis zajęć &#8680;</a></p>
+        <p><a href="/teachers#nowak" style="color:#333333">Kasia Nowak &#8680;</a></p>
+    </td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="vj">Vinyasa joga
+            <p></p>
+        <p><a href="/vinyasa" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kowalska" style="color:#333333">Ania Kowalska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jk">Joga kręgosłupa
+            <p></p>
+            <p><a href="/spine" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zielinska" style="color:#333333">Hania Zielińska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="js">Joga spiralna
+            <p></p>
+            <p><a href="/spiral" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#gorska" style="color:#333333">Nela Górska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="vj">Vinyasa joga
+            <p></p>
+            <p><a href="/vinyasa" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kowalska" style="color:#333333">Ania Kowalska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">8:00-8:30</td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+    <td td class="colo">8:30-9:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <p></p>
+        <td rowspan="2" class="ajp">Aerial joga poziom 3
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">9:00-9:30</td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="aj">Ashtanga joga
+            <p></p>
+            <p><a href="/ashtanga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#mazur" style="color:#333333">Maria Mazur &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="aj">Ashtanga joga
+            <p></p>
+            <p><a href="/ashtanga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#mazur" style="color:#333333">Maria Mazur &#8680;</a></p>
+        </td>
+    </tr>
+    <tr class="ja">
+    <td td class="colo">9:30-10:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">10:00-10:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="am">Aktywna mama
+            <p></p>
+            <p><a href="/activemom" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#mroz" style="color:#333333">Nadia Mróz &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 3
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+    </tr>
+    <tr class="ja">
+    <td td class="colo">10:30-11:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">11:00-11:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="acj">Acro joga
+            <p></p>
+            <p><a href="/acroyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zajac" style="color:#333333">Gosia Zając &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="af">Animal flow
+            <p></p>
+            <p><a href="/animalflow" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#krol" style="color:#333333">Jagoda Król &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jw">Joga wheels
+            <p></p>
+            <p><a href="/wheel" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#baran" style="color:#333333">Łucja Baran &#8680;</a></p>
+        </td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">16:00-16:30</td>
+        <td rowspan="2" class="ac">Aktywna ciąża
+            <p></p>
+            <p><a href="/activepregnancy" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kwiatkowska" style="color:#333333">Sylwia Kwiatkowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td rowspan="2" class="ac">Aktywna ciąża
+            <p></p>
+            <p><a href="/activepregnancy" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kwiatkowska" style="color:#333333">Sylwia Kwiatkowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="ac">Aktywna ciąża
+            <p></p>
+            <p><a href="/activepregnancy" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kwiatkowska" style="color:#333333">Sylwia Kwiatkowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">16:30-17:00</td>
+        <td></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">17:00-17:30</td>
+        <td></td>
+        <td rowspan="2" class="jw">Joga wheels
+            <p></p>
+            <p><a href="/wheel" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#baran" style="color:#333333">Łucja Baran &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jy">Joga yin
+            <p></p>
+            <p><a href="/yin" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dudek" style="color:#333333">Bianka Dudek &#8680;</a></p>
+        </td>
+        <td></td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="dm">Dno miednicy
+            <p></p>
+            <p><a href="/pelvicfloor" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Asia Sikora &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="vj">Vinyasa joga
+            <p></p>
+            <p><a href="/vinyasa" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kowalska" style="color:#333333">Ania Kowalska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">17:30-18:00</td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="acj">Acro joga
+            <p></p>
+            <p><a href="/acroyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zajac" style="color:#333333">Gosia Zając &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="vj">Vinyasa joga
+            <p></p>
+            <p><a href="/vinyasa" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#kowalska" style="color:#333333">Ania Kowalska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="acj">Acro joga
+            <p></p>
+            <p><a href="/acroyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zajac" style="color:#333333">Gosia Zając &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">18:00-18:30</td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td rowspan="2" class="jk">Joga kręgosłupa
+            <p></p>
+            <p><a href="/spine" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zielinska" style="color:#333333">Hania Zielińska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="dm">Dno miednicy
+            <p></p>
+            <p><a href="/pelvicfloor" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Asia Sikora &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="af">Animal flow
+            <p></p>
+            <p><a href="/animalflow" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#krol" style="color:#333333">Jagoda Król &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jk">Joga kręgosłupa
+            <p></p>
+            <p><a href="/spine" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zielinska" style="color:#333333">Hania Zielińska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">18:30-19:00</td>
+        <p></p>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="af">Animal flow
+            <p></p>
+            <p><a href="/animalflow" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#krol" style="color:#333333">Jagoda Król &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="sje">Strala joga energize
+            <p></p>
+            <p><a href="/strala" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#nowak" style="color:#333333">Kasia Nowak &#8680;</a></p></td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">19:00-19:30</td>
+        <td rowspan="2" class="jk">Joga kręgosłupa
+            <p></p>
+            <p><a href="/spine" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zielinska" style="color:#333333">Hania Zielińska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="af">Animal flow
+            <p></p>
+            <p><a href="/animalflow" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#krol" style="color:#333333">Jagoda Król &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 3
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">19:30-20:00</td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="af">Animal flow
+            <p></p>
+            <p><a href="/animalflow" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#krol" style="color:#333333">Jagoda Król &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="aj">Acro joga
+            <p></p>
+            <p><a href="/acroyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#zajac" style="color:#333333">Gosia Zając &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 1
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#wozniak" style="color:#333333">Zuzia Woźniak &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="hj">Hatha joga
+            <p></p>
+            <p><a href="/hatha" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#pawlak" style="color:#333333">Sara Pawlak &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">20:00-20:30</td>
+        <td rowspan="2" class="jy">Joga Yin
+            <p></p>
+            <p><a href="/yin" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dudek" style="color:#333333">Bianka Dudek &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="aj">Ashtanga joga
+            <p></p>
+            <p><a href="/ashtanga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#mazur" style="color:#333333">Maria Mazur &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="ajp">Aerial joga poziom 2
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ci">
+        <td td class="colo">20:30-21:00</td>
+        <td rowspan="2" class="ajp"> Aerial joga poziom 3
+            <p></p>
+            <p><a href="/aerialyoga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dabrowska" style="color:#333333">Lena Dąbrowska &#8680;</a></p>
+        </td>
+        <td></td>
+        <td rowspan="2" class="aj"> Ashtanga joga
+            <p></p>
+            <p><a href="/ashtanga" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#mazur" style="color:#333333">Maria Mazur &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jw">Joga wheels
+            <p></p>
+            <p><a href="/wheel" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#baran" style="color:#333333">Łucja Baran &#8680;</a></p>
+        </td>
+        <td rowspan="2" class="jy">Joga yin
+            <p></p>
+            <p><a href="/yin" style="color:#333333">Opis zajęć &#8680;</a></p>
+            <p><a href="/teachers#dudek" style="color:#333333">Bianka Dudek &#8680;</a></p>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr class="ja">
+        <td td class="colo">21:00-21:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

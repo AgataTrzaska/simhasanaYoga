@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/columns.css?version=160">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+
+<div class='some-page-wrapper'>
+    <div class='row'>
+        <div class='column'>
+            <div class='butto'>
+                <div th:replace="fragments/buttons :: buttons"></div>
+            </div>
+        </div>
+        <div class='column'>
+            <div class='descrip'>
+                <div class="pho">
+                    <img src="/images/buttons/pelvicfloor.jpg" class="2" style="width:100%; border-top-left-radius:60px; border-top-right-radius:60px">
+                    <a href="/pelvicfloorgal"><button class="btn"><i class="fa fa-camera" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+                    <a href="/teachers#sikora"><button class="btn2"><i class="glyphicon glyphicon-user" style="font-size:48px;color:rgb(255, 179, 71)"></i></button></a>
+
+                </div>
+                <p></p>
+
+                <p>
+                    Trening mięśni głębokich oraz dna miednicy jest metodą fitness o działaniu terapeutycznym. Podczas ćwiczeń pracujemy mięśniami głębokimi, ustawiając szkielet w taki sposób, jaki jest dla niego prawidłowy, a który niestety często zostaje wypaczony złymi nawykami, siedzącym trybem życia oraz stresem.                </p>
+                <p>
+                    Standardowy trening fitness zajmuje się głównie mięśniami powierzchniowymi, my natomiast skupiamy się na mięśniach głębokich, za fundament uznając kręgosłup i miednicę. Dlaczego? Ponieważ aktywacja miednicy wpływa na resztę ciała – szkielet się napręża, ciało prostuje, a organy przestają być uciskane. To wpływa pozytywnie na nasze samopoczucie, sposób poruszania się, ale także działa profilaktycznie w przypadku takich schorzeń jak wysiłkowe nietrzymanie moczu, bóle kręgosłupa, a nawet migreny! Dodatkowo trening zwiększa satysfakcję płynącą ze współżycia seksualnego.                </p>
+
+                <p>
+                    Zajęcia skierowane do kobiet na każdym etapie życia i w różnej kondycji; tych w ciąży lub planujących ciążę oraz pań w wieku okołomenopauzalnym. Trening mięśni głębokich i dna miednicy można traktować zarówno jako działanie profilaktyczne, jak i zestaw ćwiczeń terapeutycznych, poprawiających kondycję kobiet cierpiących na wysiłkowe nietrzymanie moczu.
+                </p>
+
+                <p></p>
+                <p></p>
+                <p></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i6kGZzVBGl0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
