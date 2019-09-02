@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css?version=160">
+    <link rel="stylesheet" type="text/css" href="css/style.css?version=160">
 </head>
 <body>
 <div th:replace="fragments/header :: header"></div>
 <p class="a"></p>
 <p class="a"></p>
-<div class="slideshow-container">
 
-    <div class="mySlides fade">
-        <img src="/images/strglo/rekl.jpg" style="width:60%">
+<div class="container" >
+
+    <div class="mySlides">
+        <a href="\courses#mind"><img src="\images\strglo\rekl.jpg" class="bum"></a>
     </div>
 
-    <div class="mySlides fade">
-        <img src="/images/strglo/rekl2.jpg" style="width:60%">
+    <div class="mySlides">
+        <a href="\wheel"><img src="\images\strglo\rekl2.jpg" class="bum"></a>
     </div>
 
-    <div class="mySlides fade">
-        <img src="/images/strglo/rekl3.jpg" style="width:60%">
+    <div class="mySlides">
+        <a href="\courses#animal"><img src="\images\strglo\rekl3.jpg" class="bum"></a>
     </div>
 
+
+    <div class="btn-group">
+    <button class="but1" onclick="plusDivs(-1)" value = "myimage" >
+        <img src="\images\icons\left.png" class="ab" />
+    </button>
+    <button class="but2" onclick="plusDivs(1)" value = "myimage">
+        <img src="\images\icons\right.png" class="ab" />
+    </button>
+    </div>
 </div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-</div>
-
 <script  src="js/home.js"></script>
-<p class="a"></p>
+
 <div th:replace="fragments/footer :: footer"></div>
 </body>
 </html>

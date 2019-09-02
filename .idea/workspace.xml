@@ -1,7 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9d90191-ec12-4d20-85e5-e6393469691e" name="Default Changelist" comment="" />
+    <list default="true" id="a9d90191-ec12-4d20-85e5-e6393469691e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/back.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/buttons3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/agatka/SimhasanaYogaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agatka/SimhasanaYogaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/agatka/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/agatka/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/graphic.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/graphic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/teachers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/teachers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/strglo/rekl3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/baran.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/dabrowska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/dudek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/gorska.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/gorska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/kowalska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/krol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/kwiatkowska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/mazur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/mroz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/nowak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/pawlak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/sikora.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/wozniak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/zajac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/teachers/zielinska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/acroyoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/acroyoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/activemom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/activemom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/activepregnancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/activepregnancy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/aerialyoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/aerialyoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animalflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animalflow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ashtanga.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ashtanga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/graphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/graphic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hatha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hatha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pelvicfloor.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pelvicfloor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/spine.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/spine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/spiral.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/spiral.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/strala.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/strala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/teachers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vinyasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vinyasa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/yin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/yin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/agatka/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/agatka/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/graphic.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/graphic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/strglo/rekl3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/baran.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/dabrowska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/dudek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/gorska.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/gorska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/kowalska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/krol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/kwiatkowska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/mazur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/mroz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/nowak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/pawlak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/sikora.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/wozniak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/zajac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/teachers/zielinska.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/acroyoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/acroyoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/activemom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/activemom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/activepregnancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/activepregnancy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/aerialyoga.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/aerialyoga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/animalflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/animalflow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/ashtanga.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/ashtanga.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/graphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/graphic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/hatha.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hatha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/pelvicfloor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pelvicfloor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/spine.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/spine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/spiral.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/spiral.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/strala.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/strala.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/teachers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vinyasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vinyasa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/yin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/yin.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,28 +133,30 @@
   <component name="ProjectId" id="1PTBCkOZY5pih4S22yGxZZNMSxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/img" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\img" />
-      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates" />
-      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources" />
-      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\static" />
-      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\static\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates" />
       <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates\act" />
       <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates\ev" />
       <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates\activities" />
       <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates\fragments" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\img" />
+      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\templates" />
+      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources" />
+      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\static" />
+      <recent name="C:\Users\JS\IdeaProjects\simhasanaYoga\src\main\resources\static\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,7 +212,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

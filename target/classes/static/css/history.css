@@ -9,10 +9,9 @@
 .box{
         position: relative;
         display: inline-block; /* Make the width of box same as image */
-        background: #333333;
         height: 510px;
         margin-left: 153px;
-        width: 1055px;
+        width: 2000px;
         margin-top:1%;
         font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
                   font-size: 14px;

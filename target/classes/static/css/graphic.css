@@ -8,9 +8,12 @@ margin-top: 2%;
 margin-left: 29%;
 margin-top: 2%;
   font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
-
 }
 
+.thh{
+padding-left: 10px;
+
+}
 
 .days{
 background-color: #111111;
@@ -80,5 +83,14 @@ a:active {
 }
 
 a:hover {
-  color: MediumSpringGreen  ;
+  color: #111111 ;
 }
+
+    .cie:hover {
+               background-color: #333333;
+         }
+
+     .jas:hover {
+               background-color: #111111;
+         }
+

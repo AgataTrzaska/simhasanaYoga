@@ -1,13 +1,13 @@
 .btn-group button {
   background-color: #333333;
-  border: 0px;
-  color: rgb(255, 179, 71);
-  padding: 10px 24px;
-  cursor: pointer;
-  width: 100%;
-  display: block;
-   font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
-          font-size: 12px;
+                            border: 0px;
+                            color: rgb(255, 179, 71);
+                            padding: 10px 24px;
+                            cursor: pointer;
+                            width: 100%;
+                            display: block;
+                             font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+                                    font-size: 12px;
 }
 
 .btn-group button:not(:last-child) {
